@@ -1,0 +1,41 @@
+/* Resetear html */
+body{
+    padding: 0;
+    margin: 0;
+}
+/* ------------ Estilos generales -------------- */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+ font-size: 3rem; 
+ color: #274eb9;
+}
+button{
+    min-width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: #FAB211;
+    color: #0e0c2b;
+    font-weight: 700;
+}
+/* -------------- Seccion de logo e informacion ------------ */
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+}
+/* Ajustar imagen al contenedor  */
+.hero-image{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100%;
+}
+/* Alinear titulo y texto en el contenedor */
+.info{
+    align-self: center;
+}
